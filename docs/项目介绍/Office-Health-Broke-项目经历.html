@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Office-Health-Broke个人项目经历：项目概述、职责描述和项目成果，覆盖问题定义、最小闭环与真实用户留存验证。">
+<title>Office-Health-Broke · 项目经历</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#f3f3f1;color:#191919;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;font-size:15px;line-height:1.8;-webkit-font-smoothing:antialiased}
+a{color:inherit;text-underline-offset:4px}
+.toolbar{max-width:1060px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:22px 0;color:#666;font-size:12px}
+button{font:inherit;color:inherit;background:white;border:1px solid #ccc;padding:7px 15px;border-radius:4px;cursor:pointer}
+main{max-width:1060px;margin:0 auto 35px;padding:34px 48px 30px;background:#fff;border:1px solid #e1e1dd}
+h1{font-size:27px;line-height:1.3;margin:0;letter-spacing:-.02em;overflow-wrap:anywhere}
+.resume-header{display:flex;align-items:baseline;justify-content:space-between;gap:15px}
+.resume-role{font-size:14px;white-space:nowrap}
+.resume-subtitle{font-size:15px;font-weight:500;margin:8px 0 0;padding-bottom:13px;border-bottom:1.5px solid #222}
+.resume-dimensions{font-size:12px;color:#555;margin:12px 0 0}
+.resume-section{margin-top:20px}
+h2{font-size:16px;margin:0 0 8px;color:#70706b}
+p{margin:0}
+ol{padding-left:1.5em;margin:0}
+li{padding-left:3px;margin-bottom:9px}
+li:last-child{margin-bottom:0}
+strong{font-weight:650;color:#151515}
+.resume-section li,.resume-section p{font-size:15px;line-height:1.85}
+.resume-remit{margin-bottom:9px}
+.responsibilities p+p{margin-top:9px}
+.details-box{border-top:1px solid #ddd;padding-top:12px;margin-top:25px;color:#737373;font-size:12px}
+summary{cursor:pointer}
+.details-content{padding-top:12px;line-height:1.8}
+.details-content p+p{margin-top:9px}
+footer{margin-top:22px;color:#858580;font-size:11px}
+:focus-visible{outline:2px solid #333;outline-offset:4px}
+@media(max-width:740px){body{background:#fff}.toolbar{padding:15px 22px;gap:12px}main{padding:20px 22px 28px;border:0;margin-bottom:0}.resume-header{display:block}h1{font-size:26px}.resume-role{white-space:normal;font-size:14px;margin-top:7px}.resume-subtitle{font-size:14px}.resume-dimensions{font-size:12px}.resume-section{margin-top:22px}.resume-section li,.resume-section p{font-size:14px;line-height:1.85}}
+@media print{@page{size:A4;margin:14mm 15mm}body{background:#fff;font-size:10pt}.toolbar,.details-box,footer{display:none}main{border:0;padding:0;margin:0;max-width:none}.resume-header{display:flex}h1{font-size:18pt}.resume-role{font-size:9pt}.resume-subtitle{font-size:10pt;padding-bottom:8px}.resume-dimensions{font-size:8.5pt;margin-top:8px}.resume-section{margin-top:12px}h2{font-size:11pt;margin-bottom:5px;break-after:avoid}.resume-section li,.resume-section p{font-size:9.6pt;line-height:1.65}.responsibilities p+p{margin-top:5px}.responsibilities p,li{break-inside:avoid}li{margin-bottom:5px}}
+</style>
+</head>
+<body>
+<div class="toolbar"><a href="Office-Health-Broke-项目经历.md" download>下载 Markdown</a><button type="button" onclick="window.print()">打印 / 保存 PDF</button></div>
+<main>
+<header class="resume-header"><h1>Office-Health-Broke</h1><p class="resume-role">个人项目｜产品设计与开发</p></header>
+<p class="resume-subtitle">工位行动 · 个人饮食与碎片运动管理产品</p>
+<p class="resume-dimensions">问题定义 ｜ 产品验证 ｜ 规则推荐 ｜ 状态管理 ｜ 用户激活与留存</p>
+<section class="resume-section"><h2>项目概述</h2><p>基于久坐上班族三餐选择反复、预算难控和运动难坚持的问题，发起 Office-Health-Broke（工位行动），以低负担的饮食与碎片运动管理为切入点。通过“偏好建档—三餐安排—运动执行—日反馈”的最小闭环，探索用户愿意持续使用的日常行动工具。</p></section>
+<section class="resume-section responsibilities"><h2>职责描述</h2>
+<p><strong>【产品定位与方案设计】</strong> 围绕久坐、外食和预算控制痛点，拆解用户任务（JTBD），定义“建档—出餐—运动—反馈”最小闭环，负责 PRD、信息架构与迭代优先级。</p>
+<p><strong>【推荐策略与状态管理】</strong> 将预算、饮食限制建模为硬约束，设计餐单匹配、替换与无解提示；通过运动状态机、跨日归档和积分去重，支持计划调整与执行记录保留。</p>
+<p><strong>【用户激活与留存设计】</strong> 以首次有效行动定义激活事件，组合七日计划、即时积分与日反馈；建立 Cohort 观察方案及 D1/D7 留存口径，规划真实试用与反馈迭代。</p>
+</section>
+<section class="resume-section"><h2>项目成果</h2><ol>
+<li><strong>从 0 到 1 完成产品设计与落地。</strong> 完成六个核心入口，实现三餐安排、碎片运动与日反馈，形成“计划—执行—记录”的最小闭环。</li>
+<li><strong>建立产品迭代与验证基线。</strong> 沉淀覆盖 17 个功能模块的 PRD 与验收标准，定义激活、D1/D7 留存和周使用频次；真实用户规模与留存结果待核实。</li>
+</ol></section>
+<details class="details-box"><summary>真实用户与留存口径说明</summary><div class="details-content">
+<p><strong>当前证据：</strong>项目代码、完整PRD、本地运行及9项现有业务/地图代理测试；这些证据不等于真实用户使用和留存数据。现有资料未提供可核对的用户规模、招募来源、使用周期或复访记录。</p>
+<p><strong>建议采集：</strong>按首次激活日期建立同期群，记录用户来源、首次有效行动、后续行为日期、每周有效使用天数、连续使用动机和流失原因。开发者自测、自动化测试与真实试用分开统计。</p>
+<p><strong>统计定义：</strong>首次有效行动为第一次确认用餐或完成运动记录。D1/D7有效行为留存为同一激活同期群中，在激活后第1/第7个自然日再次发生有效行为的去重用户数除以该同期群中已满观察窗口的激活用户数；有效行为包含用餐、运动或日反馈，不把打开页面计为有效行为。</p>
+<p><strong>补充真实数据后：</strong>用试用人数、来源、统计区间、留存分子与分母以及对应用户反馈替换第二项的待核实表述。样本较小时同时展示人数和比例，避免只报百分比。</p>
+</div></details>
+<footer>更新于 2026-10-04 · 项目经历按已实现能力撰写，用户与留存数据待核实。</footer>
+</main>
+</body>
+</html>
